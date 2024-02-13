@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ランダム番号発行</title>
+    <title>被験者番号発行</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,14 +19,14 @@
 </head>
 
 <body>
-    <h1>ランダム番号発行</h1>
+    <h1>被験者番号発行</h1>
     <button onclick="generateRandomNumber()">発行</button>
     <div id="random-number"></div>
 
     <script>
         function generateRandomNumber() {
             var randomNumber = Math.floor(Math.random() * 80); // 0から79までのランダムな整数を生成
-            document.getElementById('random-number').innerText = '発行された番号: ' + randomNumber;
+            document.getElementById('random-number').innerText = '被験者番号: ' + randomNumber;
         }
     </script>
 </body>
